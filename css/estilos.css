@@ -128,7 +128,7 @@ iframe {
   text-align: center;
 }
 body {
-  background-image: url(/imagen/back.jpg);
+  background-image: url(../imagen/back.jpg);
   background-size: cover;
 }
 
