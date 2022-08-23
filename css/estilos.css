@@ -72,6 +72,23 @@
 .video-inicio {
   grid-area: video-inicio;
   align-items: center;
+  justify-content: center;
+  animation: video-animacion 3s ease-in-out 2s both;
+}
+@keyframes video-animacion{
+  0%{
+    width: 100%;
+    transform:translate(0px)
+  }
+  50%{
+    width: 70%;
+    transform:translate(50px)
+  }
+  100%{
+    width: 50%;
+    transform:translate(450px)
+  }
+
 }
 
 .map {
@@ -123,13 +140,16 @@ iframe {
   grid-area: s2titulo;
   font-family: "Exo", sans-serif;
   font-size: 30px;
-  background-color: black;
+  background-color: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(93,0,19,1) 100%);
   border-radius: 20px;
   color: aliceblue;
   text-align: center;
+  transition: background-color 10s;
 }
+
 body {
-  background-image: url(../imagen/back.jpg);
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(73,0,0,1) 30%, rgba(255,255,255,1) 100%);
   background-size: cover;
 }
 
@@ -258,6 +278,10 @@ label {
   color: rgb(101, 0, 0);
   padding: 5px;
   font-size: 30px;
+  transition: font-size 1s;
+}
+.header li a:hover{
+  font-size: 35px;
 }
 
 nav {
