@@ -1,25 +1,43 @@
 
-#header {
-  height:12vh;
-}
+
 #main {
  
   height: 50vh;
 }
-#footer {
-  width: 10vh;
-  background-color: rgb(101, 0, 0);
-}
+
 #section{
   width: 50vh;
 }
-#footer a img{
+#footer{
+  background-color:rgb(101, 0, 0);
+}
+
+#icon-foot a img{
   width: 5vh;
+  padding: 5px;
 }
 .s2titulo {
   
   font-family: "Exo", sans-serif;
 
+}
+#cards1{
+  box-shadow: 5px 5px 20px rgb(255, 255, 255,1);
+  font-family: "Play", sans-serif;
+}
+#cards{
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(93,0,19,1) 100%);
+  box-shadow: 0px 1px 10px rgba(0,0, 0, 0.2);
+  transition: all 400ms ease;
+}
+#cards:hover{
+  box-shadow: 5px 5px 20px rgb(255, 255, 255,1);
+  transform: translate(-3%) ;
+  color: azure;
+}
+#cards img{
+  justify-items: end;
 }
 
 body {
@@ -33,6 +51,7 @@ h2.encabezados {
 .titulo {
   font-family: "Play", sans-serif;
   color: rgb(101, 0, 0);
+  font-size: 50px;
 }
 a#enlace-titulo {
   text-decoration: none;
@@ -77,12 +96,12 @@ a#enlace-titulo {
   color: aliceblue;
 }
 
-.container-fluid li a {
+#navbarNav li a {
   text-decoration: none;
   color: rgb(101, 0, 0);
   transition: font-size 1s;
 }
-.container-fluid li a:hover{
+#navbarNav li a:hover{
   font-size: 35px;
 }
 
