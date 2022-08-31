@@ -21,20 +21,16 @@
     <title>HOME</title>
   </head>
   <body>
-    <header class="container-fluid mb-3">
+    <header class="container-fluid mb-3 ">
       <div class="row">
-        <nav class="navbar navbar-expand-lg ">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-4">
-        <a class="titulo navbar-brand " href="./index.html" id="enlace-titulo"
+        <nav class="navbar navbar-expand-lg">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-5 col-xxl-5">
+        <a class="titulo navbar-brand p-3" href="./index.html" id="enlace-titulo"
           >PAYTON FC</a
         >
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-2">
-            <h2 class="encabezados">HOME</h2>
-        </div>
-      
-        <button
-            class="navbar-toggler"
+          <button
+            class=" p-3 navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -44,15 +40,15 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-6 collapse navbar-collapse justify-content-end"
+          <div class="col-md-2 col-lg-2 col-xl-7 col-xxl-7 collapse navbar-collapse "
             id="navbarNav">
-            <ul class="h2 navbar-nav col-sm-12 ">
+            <ul class="h2 navbar-nav col-sm-12 justify-content-end">
               <li class="nav-item">
                 <a class="nav-link" ="page" href="./pages/login.html"
                   >LOGIN</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/act.html">HOME</a>
+                <a class="nav-link" href="./index.html">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/act.html">ACTIVIDADES</a>
@@ -68,8 +64,11 @@
         </div>
       </div>
       </nav>
-      </class>
-      
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-2">
+          <h2 class="encabezados p-4">HOME</h2>
+      </div>
+      </div>
     </header>
     <main class="container-fluid col-11">
       <div class="row" >
@@ -86,25 +85,23 @@
       <section class="p-3 container-fluid">
         <div class="card bg-dark text-white" id="cards1">
           <img src="./imagen/back.jpg" class="card-img" alt="Hinchada">
-          <div class="card-img-overlay">
+          <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p class="card-text p-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </section>
       <section class="container-fluid pt-4">
         <div class=" card mb-2 " style="max-width: 100%;" id="cards">
             <div class=" row g-0 " >
-              <div class="p-0 container-fluid col" >
+              <div class="p-0 container-fluid col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" >
                 <img src="./imagen/futlogin.jpg" class="img-fluid " id="section"alt="jugador con pelota">
               </div>
-              <div class="col">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <div class="card-body">
                   <h5 class="card-title">FUTBOL</h5>
                   <p class="card-text">"Gran parte del éxito en el fútbol está en la mente. Debes creer que
                     eres el mejor y asegurarte de que lo eres."</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
@@ -113,15 +110,14 @@
         <section class="container-fluid p-2">
           <div class="card mb-2" style="max-width: 100%;" id="cards">
               <div class=" row g-0" >
-                <div class="p-0 container-fluid col" >
+                <div class="p-0 container-fluid col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" >
                   <img src="./imagen/futlogin.jpg" class="img-fluid rounded-start" id="section"alt="jugador con pelota">
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                   <div class="card-body">
                     <h5 class="card-title">FUTBOL</h5>
                     <p class="card-text">"Gran parte del éxito en el fútbol está en la mente. Debes creer que
                       eres el mejor y asegurarte de que lo eres."</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                   </div>
                 </div>
               </div>
@@ -130,17 +126,17 @@
     </main>
     <footer class="container-fluid col-12" id="footer">
       <div class="row  justify-content-between">
-        <div class="p-0 col-4 w-20">
+        <div class="p-0 w-20 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
       <img
         src="./imagen/escudoclub.png"
         alt="escudoclub"
       />
       </div>
-      <div class="col-4 p-3">
+      <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-3">
         <h3>CENTRO DEPORTIVO PAYTON FC</h3>
         <p>Club social y deportivo PAYTON FC. Visita nuestras redes sociales</p>
       </div>
-      <div class="col-4 p-2 text-end M-1" id="icon-foot">
+      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 p-2 text-center M-1" id="icon-foot">
         <a href="https://es-la.facebook.com/ClubElPorvenirOficial" 
           ><img src="./imagen/facebook.png" alt="facebook" 
         /></a>

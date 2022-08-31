@@ -51,7 +51,7 @@ h2.encabezados {
 .titulo {
   font-family: "Play", sans-serif;
   color: rgb(101, 0, 0);
-  font-size: 50px;
+  font-size: 5vh;
 }
 a#enlace-titulo {
   text-decoration: none;
