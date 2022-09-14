@@ -16,16 +16,19 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/estilos.css" />
+    <script src="https://kit.fontawesome.com/de012537da.js" crossorigin="anonymous"></script>
     <title>CONTACTO</title>
+    <meta name="description" content="Comunicate con PAYTON FC y anotate en tu deporte favorito">
+    <meta name="keywords" content="contacto, mail, nosotros, futbol, natacion, entrenamiento,">
+    <link rel="stylesheet" href="../css/estilos.css" />  
   </head>
-  <body class="grilla-principal">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <a id="enlace-titulo" class="titulo navbar-brand" href="./index.html"
+  <body>
+    <header class="container-flex col-11">
+      <nav class="navbar navbar-expand-lg">
+        <a id="enlace-titulo" class="titulo navbar-brand m-2" href="./index.html"
           >PAYTON FC</a
         >
-        <div class="container-fluid">
+        <div class="container-fluid h3">
           <button
             class="navbar-toggler"
             type="button"
@@ -38,7 +41,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            class="collapse navbar-collapse justify-content-end p-4"
             id="navbarNav"
           >
             <ul class="navbar-nav">
@@ -63,21 +66,23 @@
           </div>
         </div>
       </nav>
-      <h2 class="encabezados">CONTACTO</h2>
-  </header>
-  <main>
-    <section class="form-registro">
-      <fieldset>
-        <legend>Formulario</legend>
-        <form action="" method="post">
-          <label for="Nombre">Ingrese su Nombre</label>
-
-          <input class="inp" type="text" id="Nombre" placeholder="Nombre" />
-
-          <label for="Apellido">Ingrese su Apellido</label>
-
-          <input class="inp" type="text" id="Apellido" placeholder="Apellido" />
-          <div>
+      <div class="row m-2">
+      <h2 class="encabezados p-2">CONTACTO</h2>
+      </div>
+    </header>
+    <main>
+            <div class="container g-2 h3 mb-5  text-center">
+              <legend class="bg-black h2 text-center">Formulario</legend>
+                <form class="row g-4 mt-3 form-registro">
+                  <div class="col-6">
+                <label for="Nombre">Ingrese su Nombre</label>
+                <input class="inp" type="text" id="Nombre" placeholder="Nombre" />
+              </div>
+              <div class="col-6">
+            <label for="Apellido">Ingrese su Apellido</label>
+            <input class="inp" type="text" id="Apellido" placeholder="Apellido" />
+          </div>
+            <div class="col-6">
             <label for="mail">Mail</label>
 
             <input class="inp"
@@ -88,7 +93,7 @@
               required
             />
           </div>
-          <div class="inp">
+          <div class="col-6 inp">
             <label for="estado">Estado civil</label>
             <select name="Estado civil" id="estado">
               <option value="Soltero/a">Soltero/a</option>
@@ -100,48 +105,49 @@
               </option>
             </select>
           </div>
-          <div>
+          <div class="col-12">
             <input type="checkbox" name="recibir" />¿Desea recibir Newsletter?
           </div>
-          <div>
+          <div class="col-12 w-100">
             <textarea
               name="comentario"
               id="comentario"
-              cols="40"
-              rows="5"
+              cols="80vh"
+              rows="9"
               placeholder="MENSAJE"
             ></textarea>
           </div>
-          <div>
+          <div class="col m-2">
             <input class="boton" id="reset" type="reset" value="Limpiar formulario" />
+          </div>
+            <div class="col m-2">
             <input class="boton" id="enviar" type="submit" value="Enviar" />
           </div>
         </form>
-      </fieldset>
+    </div>
     </section>
   </main>
-  <footer class="grid-footer">
-    <img class="img-foot" src="../imagen/escudoclub.png" alt="escudoclub" height="70px" />
-    <div class="tit-foot">
-    <h3> CENTRO DEPORTIVO PAYTON FC </h3>
-    <p>
-      Club social y deportivo PAYTON FC. Visita nuestras redes sociales 
-    </p>
-  </div>
-    <div class="icon-foot">
-    <a href="https://es-la.facebook.com/ClubElPorvenirOficial"
-      ><img src="../imagen/facebook.png" alt="facebook" height="40px"
-    /></a>
-    <a href="https://www.twitch.tv/clubaunion?lang=es"
-      ><img src="../imagen/twitch.png" alt="twitch" height="40px"
-    /></a>
-    <a href="https://twitter.com/atlantaoficial?lang=es"
-      ><img src="../imagen/twiter.png" alt="twiter" height="40px"
-    /></a>
-    <a href="https://www.instagram.com/argentinosc/?hl=es"
-      ><img src="../imagen/Instagram-Icon.png.webp" alt="insta" height="40px"
-    /></a>
+  <footer class="container-fluid col-12 b-auto" id="footer">
+    <div class="row  justify-content-between">
+      <div class="p-0 w-20 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+    <img
+      src="../imagen/escudoclub.png"
+      alt="escudoclub"
+    />
     </div>
+    <div class="tit-foot col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-3">
+      <h3>CENTRO DEPORTIVO PAYTON FC</h3>
+      <p class="h3">Club social y deportivo PAYTON FC. Visita nuestras redes sociales</p>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 p-2 text-center M-1" id="icon-foot">
+      <div class="iconos">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      </div>
+    </div>
+</div>
   </footer>
   <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

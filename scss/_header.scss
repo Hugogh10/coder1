@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(
+    0deg,
+    rgba(73, 0, 0, 1) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-size: cover;
+}
+
+.encabezados {
+  font-family: "Roboto", sans-serif;
+  margin-left: 5vh;
+}
+.encabezados-login {
+  font-family: "Roboto", sans-serif;
+}
+.titulo {
+  font-family: "Play", sans-serif;
+  color: rgb(101, 0, 0);
+  font-size: 5vh;
+}
+.titulo-login {
+  font-family: "Play", sans-serif;
+  color: rgb(101, 0, 0);
+  text-align: center;
+}
+#enlace-titulo {
+  text-decoration: none;
+  margin: 5vh;
+}
+
+#navbarNav li a {
+  text-decoration: none;
+  color: rgb(101, 0, 0);
+}
+
+nav {
+  font-family: "Exo", sans-serif;
+  color: black;
+  @extend .fa-facebook;
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+.lista-act {
+  height: 50vh;
+}
