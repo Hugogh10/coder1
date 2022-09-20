@@ -21,6 +21,7 @@
 }
 #cards {
   font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
   font-size: 5vh;
   color: aliceblue;
   background: radial-gradient(
@@ -35,23 +36,28 @@
   }
 }
 #cards:hover {
-  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  box-shadow: 5px 5px 20px rgb(122, 0, 0);
   transform: translate(-3%);
   color: azure;
 }
 
 .login-box {
-  background: rgb(101, 0, 0);
-  height: 70vh;
+  background: rgb(113, 0, 0);
   text-decoration: none;
   text-align: center;
+  height: 80vh;
+  border-radius: 10%;
+  border: solid 4px black;
+
 }
 .login-box {
-  h3 {
-    font-size: 30px;
+  h2 {
+    font-size: 3vh;
     color: aliceblue;
+    padding: 10px;
   }
 }
+
 .enlaces {
   a {
     text-decoration: none;
@@ -70,17 +76,18 @@ main {
 }
 .formulario {
   color: aliceblue;
+  font-size:large;
 }
 
 .actividades {
   font-family: "Play", sans-serif;
   color: aliceblue;
-  font-size: 25px;
+  font-size:small;
+  background-color: rgb(101, 0, 0);
 }
 .lista1 {
   background-color: black;
   color: aliceblue;
-  font-size: 20px;
 }
 .titulo-act {
   font-family: "Play", sans-serif;
@@ -88,8 +95,8 @@ main {
   color: aliceblue;
 }
 
+
 .boton {
-  width: 50%;
   background: black;
   color: aliceblue;
 }
@@ -98,5 +105,5 @@ main {
   background-color: black;
   color: #fff;
   border-color: #ffffff;
-  width: 80%;
+  width: 50%;
 }

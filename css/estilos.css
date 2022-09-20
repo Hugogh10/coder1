@@ -25,7 +25,8 @@ body {
 
 #navbarNav li a {
   text-decoration: none;
-  color: #650000; }
+  color: #650000;
+  margin: 5px; }
 
 nav {
   font-family: "Exo", sans-serif;
@@ -57,6 +58,7 @@ nav {
 
 #cards {
   font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
   font-size: 5vh;
   color: aliceblue;
   background: radial-gradient(circle, black 0%, #5d0013 100%);
@@ -66,19 +68,22 @@ nav {
     justify-items: end; }
 
 #cards:hover {
-  box-shadow: 5px 5px 20px white;
+  box-shadow: 5px 5px 20px #7a0000;
   transform: translate(-3%);
   color: azure; }
 
 .login-box {
-  background: #650000;
-  height: 70vh;
+  background: #710000;
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  height: 80vh;
+  border-radius: 10%;
+  border: solid 4px black; }
 
-.login-box h3 {
-  font-size: 30px;
-  color: aliceblue; }
+.login-box h2 {
+  font-size: 3vh;
+  color: aliceblue;
+  padding: 10px; }
 
 .enlaces a {
   text-decoration: none;
@@ -93,17 +98,18 @@ main legend {
   color: azure; }
 
 .formulario {
-  color: aliceblue; }
+  color: aliceblue;
+  font-size: large; }
 
 .actividades {
   font-family: "Play", sans-serif;
   color: aliceblue;
-  font-size: 25px; }
+  font-size: small;
+  background-color: #650000; }
 
 .lista1 {
   background-color: black;
-  color: aliceblue;
-  font-size: 20px; }
+  color: aliceblue; }
 
 .titulo-act {
   font-family: "Play", sans-serif;
@@ -111,7 +117,6 @@ main legend {
   color: aliceblue; }
 
 .boton {
-  width: 50%;
   background: black;
   color: aliceblue; }
 
@@ -120,7 +125,7 @@ main legend {
   background-color: black;
   color: #fff;
   border-color: #ffffff;
-  width: 80%; }
+  width: 50%; }
 
 .tit-foot {
   color: #f4f7fa;
@@ -141,11 +146,11 @@ main legend {
       padding: 10px;
       border-radius: 50%;
       margin: 10px; }
-  #footer .fa-facebook, #footer nav, #footer .fa-instagram, #footer .fa-whatsapp {
+  #footer .fa-facebook, #footer .fa-instagram, #footer .fa-whatsapp {
     background-color: blue; }
   #footer .fa-instagram {
     background-color: #6a008a; }
   #footer .fa-whatsapp {
     background-color: green; }
-  #footer .fa-facebook:hover, #footer nav:hover, #footer .fa-instagram:hover, #footer .fa-whatsapp:hover {
+  #footer .fa-facebook:hover, #footer .fa-instagram:hover, #footer .fa-whatsapp:hover {
     background-color: black; }
