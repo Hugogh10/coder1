@@ -1,5 +1,5 @@
 #main {
-  height: 50vh;
+  height: 100vh;
 }
 
 .section {
@@ -37,7 +37,7 @@
   }
 }
 #cards:hover {
-  box-shadow: 5px 5px 20px rgb(122, 0, 0);
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
   transform: translate(-3%);
   color: azure;
 }
@@ -45,17 +45,18 @@
 .login-box {
   background: rgb(113, 0, 0);
   text-decoration: none;
-  text-align: center;
-  height: 80vh;
-  border-radius: 10%;
+  text-align:center;
+  height: 100vh;
+  border-radius: 100px 0px 100px 0px;
   border: solid 4px black;
 
 }
 .login-box {
   h2 {
-    font-size: 3vh;
+    background-color: black;
+    font-size: 4vh;
     color: aliceblue;
-    padding: 10px;
+    padding: 30px;
   }
 }
 
@@ -63,6 +64,8 @@
   a {
     text-decoration: none;
     color: black;
+    font-size: 25px;
+    padding: auto;
   }
 }
 main {
@@ -107,4 +110,21 @@ main {
   color: #fff;
   border-color: #ffffff;
   width: 50%;
+}
+.iconos {
+  text-align: center;
+  background-color: black;
+  i {
+    font-size: 100px;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  p{
+    color: antiquewhite;
+  }
 }

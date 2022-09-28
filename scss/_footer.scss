@@ -5,10 +5,13 @@
     color: black;
   }
 }
+
 #footer {
   background-color: rgb(101, 0, 0);
+  border-top: black solid 4px;
   .iconos {
     text-align: center;
+    background-color:rgb(101, 0, 0);
     i {
       font-size: 100px;
       justify-content: center;
@@ -41,5 +44,8 @@
   }
   .fa-whatsapp {
     @extend .fa-facebook;
+  }
+  img{
+    width: 16vh;
   }
 }
