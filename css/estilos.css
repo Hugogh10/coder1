@@ -52,15 +52,22 @@ nav {
   margin: auto;
   border: solid black 4px; }
 
+main legend {
+  border-radius: 100px 0px 50px 0px; }
+
 #cards1 {
   box-shadow: 5px 5px 20px white;
-  font-family: "Play", sans-serif; }
+  font-family: "Play", sans-serif;
+  border-radius: 0px 0px 100px 0px;
+  border: solid 4px black; }
 
 #cards {
   font-family: "Roboto", sans-serif;
   max-width: 100%;
+  border-radius: 0px 0px 100px 0px;
+  border: solid 4px black;
   margin-bottom: 15px;
-  font-size: 5vh;
+  font-size: 4vh;
   color: aliceblue;
   background: radial-gradient(circle, black 0%, #5d0013 100%);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -99,7 +106,9 @@ main legend {
 .form-registro {
   font-family: "Play", sans-serif;
   background: #650000;
-  color: azure; }
+  color: azure;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black; }
 
 .formulario {
   color: aliceblue;
@@ -177,3 +186,7 @@ main legend {
     background-color: black; }
   #footer img {
     width: 16vh; }
+
+@media screen and (max-whidth: 575px) {
+  .footer div {
+    justify-content: center; } }

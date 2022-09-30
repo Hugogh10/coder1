@@ -15,15 +15,24 @@
   margin: auto;
   border: solid black 4px;
 }
+main{
+  legend{
+    border-radius: 100px 0px 50px 0px;
+  }
+}
 #cards1 {
   box-shadow: 5px 5px 20px rgb(255, 255, 255);
   font-family: "Play", sans-serif;
+  border-radius: 0px 0px 100px 0px;
+  border: solid 4px black;
 }
 #cards {
   font-family: "Roboto", sans-serif;
   max-width: 100%;
+  border-radius: 0px 0px 100px 0px;
+  border: solid 4px black;
   margin-bottom: 15px;
-  font-size: 5vh;
+  font-size: 4vh;
   color: aliceblue;
   background: radial-gradient(
     circle,
@@ -40,6 +49,7 @@
   box-shadow: 5px 5px 20px rgb(255, 255, 255);
   transform: translate(-3%);
   color: azure;
+  
 }
 
 .login-box {
@@ -68,6 +78,7 @@
     padding: auto;
   }
 }
+
 main {
   legend {
     color: aliceblue;
@@ -77,6 +88,8 @@ main {
   font-family: "Play", sans-serif;
   background: rgb(101, 0, 0);
   color: azure;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black;
 }
 .formulario {
   color: aliceblue;
