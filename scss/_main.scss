@@ -24,7 +24,7 @@ main{
   box-shadow: 5px 5px 20px rgb(255, 255, 255);
   font-family: "Play", sans-serif;
   border-radius: 0px 0px 100px 0px;
-  border: solid 4px black;
+  border: solid 4px black;  
 }
 #cards {
   font-family: "Roboto", sans-serif;
@@ -45,11 +45,22 @@ main{
     justify-items: end;
   }
 }
+section{
+  a{
+    text-decoration: none;
+  }
+}
 #cards:hover {
   box-shadow: 5px 5px 20px rgb(255, 255, 255);
   transform: translate(-3%);
   color: azure;
-  
+}
+.enlace-cards{
+  color: black;
+  text-decoration: dotted;
+}
+.enlace-cards:hover{
+  color: red;
 }
 
 .login-box {
@@ -110,6 +121,9 @@ main {
   font-family: "Play", sans-serif;
   background-color: rgb(101, 0, 0);
   color: aliceblue;
+  text-align: center;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black;
 }
 
 
