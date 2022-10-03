@@ -1,3 +1,4 @@
+/*general*/
 body {
   background-image: linear-gradient(0deg, #490000 30%, white 100%);
   background-size: cover; }
@@ -23,6 +24,7 @@ body {
   text-decoration: none;
   margin: 5vh; }
 
+/*nav*/
 #navbarNav li a {
   text-decoration: none;
   color: #650000;
@@ -41,24 +43,15 @@ nav {
 .lista-act {
   height: 50vh; }
 
+@media screen and (max-whidth: 575px) {
+  .footer div {
+    justify-content: center; } }
+
+/*general*/
 #main {
   height: 100vh; }
 
-.section {
-  width: 50vh; }
-
-.s2titulo {
-  font-family: "Exo", sans-serif; }
-
-.logo {
-  width: 15vh;
-  border-radius: 50%;
-  margin: auto;
-  border: solid black 4px; }
-
-main legend {
-  border-radius: 100px 0px 50px 0px; }
-
+/*home*/
 #cards1 {
   box-shadow: 5px 5px 20px white;
   font-family: "Play", sans-serif;
@@ -94,45 +87,19 @@ section a {
 .enlace-cards:hover {
   color: red; }
 
-.login-box {
-  background: #710000;
-  text-decoration: none;
-  text-align: center;
-  height: 100vh;
-  border-radius: 100px 0px 100px 0px;
-  border: solid 4px black; }
-
-.login-box h2 {
-  background-color: black;
-  font-size: 4vh;
-  color: aliceblue;
-  padding: 30px; }
-
 .enlaces a {
   text-decoration: none;
   color: black;
   font-size: 25px;
   padding: auto; }
 
-main legend {
-  color: aliceblue; }
-
-.form-registro {
-  font-family: "Play", sans-serif;
-  background: #650000;
-  color: azure;
-  border-radius: 100px 0px 100px 0px;
-  border: solid 4px black; }
-
-.formulario {
-  color: aliceblue;
-  font-size: large; }
-
+/*actividades*/
 .actividades {
   font-family: "Play", sans-serif;
   color: aliceblue;
-  font-size: small;
-  background-color: #650000; }
+  font-size: x-large;
+  background-color: #650000;
+  height: 50vh; }
 
 .lista1 {
   background-color: black;
@@ -145,6 +112,27 @@ main legend {
   text-align: center;
   border-radius: 100px 0px 100px 0px;
   border: solid 4px black; }
+
+/*login*/
+.logo {
+  width: 15vh;
+  border-radius: 50%;
+  margin: auto;
+  border: solid black 4px; }
+
+.login-box {
+  background: #710000;
+  text-decoration: none;
+  text-align: center;
+  height: 90vh;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black; }
+
+.login-box h2 {
+  background-color: black;
+  font-size: 4vh;
+  color: aliceblue;
+  padding: 30px; }
 
 .boton {
   background: black;
@@ -162,6 +150,7 @@ main legend {
   background-color: black;
   border-color: red; }
 
+/*ubicacion*/
 .iconos {
   text-align: center;
   background-color: black; }
@@ -176,6 +165,37 @@ main legend {
     margin: 10px; }
   .iconos p {
     color: antiquewhite; }
+
+/*contacto*/
+main legend {
+  border-radius: 100px 0px 50px 0px;
+  color: aliceblue; }
+
+.form-registro {
+  font-family: "Play", sans-serif;
+  background: #650000;
+  color: azure;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black; }
+
+.formulario {
+  color: aliceblue;
+  font-size: large; }
+
+@media screen and (max-width: 575px) {
+  .actividades {
+    font-size: smaller;
+    height: 100vh; }
+  .titulo-act {
+    font-size: smaller; }
+  .lista1 {
+    font-size: small; }
+  #cards {
+    font-size: small; }
+  .login-box {
+    height: 120vh; }
+  .login-boton {
+    width: 100%; } }
 
 .tit-foot {
   color: #f4f7fa;
@@ -208,7 +228,3 @@ main legend {
     background-color: black; }
   #footer img {
     width: 16vh; }
-
-@media screen and (max-whidth: 575px) {
-  .footer div {
-    justify-content: center; } }

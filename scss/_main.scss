@@ -1,25 +1,11 @@
+/*general*/
+
 #main {
   height: 100vh;
 }
 
-.section {
-  width: 50vh;
-}
+/*home*/
 
-.s2titulo {
-  font-family: "Exo", sans-serif;
-}
-.logo {
-  width: 15vh;
-  border-radius: 50%;
-  margin: auto;
-  border: solid black 4px;
-}
-main{
-  legend{
-    border-radius: 100px 0px 50px 0px;
-  }
-}
 #cards1 {
   box-shadow: 5px 5px 20px rgb(255, 255, 255);
   font-family: "Play", sans-serif;
@@ -62,25 +48,6 @@ section{
 .enlace-cards:hover{
   color: red;
 }
-
-.login-box {
-  background: rgb(113, 0, 0);
-  text-decoration: none;
-  text-align:center;
-  height: 100vh;
-  border-radius: 100px 0px 100px 0px;
-  border: solid 4px black;
-
-}
-.login-box {
-  h2 {
-    background-color: black;
-    font-size: 4vh;
-    color: aliceblue;
-    padding: 30px;
-  }
-}
-
 .enlaces {
   a {
     text-decoration: none;
@@ -90,28 +57,14 @@ section{
   }
 }
 
-main {
-  legend {
-    color: aliceblue;
-  }
-}
-.form-registro {
-  font-family: "Play", sans-serif;
-  background: rgb(101, 0, 0);
-  color: azure;
-  border-radius: 100px 0px 100px 0px;
-  border: solid 4px black;
-}
-.formulario {
-  color: aliceblue;
-  font-size:large;
-}
+/*actividades*/
 
 .actividades {
   font-family: "Play", sans-serif;
   color: aliceblue;
-  font-size:small;
+  font-size:x-large;
   background-color: rgb(101, 0, 0);
+  height: 50vh;
 }
 .lista1 {
   background-color: black;
@@ -126,7 +79,31 @@ main {
   border: solid 4px black;
 }
 
+/*login*/
 
+.logo {
+  width: 15vh;
+  border-radius: 50%;
+  margin: auto;
+  border: solid black 4px;
+}
+.login-box {
+  background: rgb(113, 0, 0);
+  text-decoration: none;
+  text-align:center;
+  height: 90vh;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black;
+
+}
+.login-box {
+  h2 {
+    background-color: black;
+    font-size: 4vh;
+    color: aliceblue;
+    padding: 30px;
+  }
+}
 .boton {
   background: black;
   color: aliceblue;
@@ -143,6 +120,7 @@ main {
   background-color: black;
   border-color: red;
 }
+/*ubicacion*/
 .iconos {
   text-align: center;
   background-color: black;
@@ -160,3 +138,55 @@ main {
     color: antiquewhite;
   }
 }
+
+/*contacto*/
+main{
+  legend{
+    border-radius: 100px 0px 50px 0px;
+    color: aliceblue;
+  }
+}
+.form-registro {
+  font-family: "Play", sans-serif;
+  background: rgb(101, 0, 0);
+  color: azure;
+  border-radius: 100px 0px 100px 0px;
+  border: solid 4px black;
+}
+.formulario {
+  color: aliceblue;
+  font-size:large;
+}
+@media screen and (max-width: 575px) {
+  .actividades {
+    font-size:smaller;
+    height: 100vh;
+  }
+  .titulo-act {
+   font-size: smaller;
+  }
+  .lista1 {
+ font-size: small;
+  }
+  #cards{
+    font-size: small;
+  }
+  .login-box {
+    height: 120vh;
+  }
+  .login-boton {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
