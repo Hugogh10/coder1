@@ -34,17 +34,21 @@ body {
     a {
       text-decoration: none;
       color: rgb(101, 0, 0);
-      margin: 5px;
+      margin: 10px;
     }
   }
 }
+.nav-link:hover{
+      border-color: black;
+      filter: drop-shadow(50px 0px 50px 0px black);
+}
 
 nav {
-  font-family: "Exo", sans-serif;
+  font-family:"Exo", sans-serif;
   color: black;
   ul {
     li {
-      list-style: none;
+      list-style:none;
     }
   }
 }

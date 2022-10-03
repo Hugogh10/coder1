@@ -138,6 +138,11 @@ main {
   border-color: #ffffff;
   width: 50%;
 }
+.btn:hover {
+  color: white;
+  background-color: black;
+  border-color: red;
+}
 .iconos {
   text-align: center;
   background-color: black;
